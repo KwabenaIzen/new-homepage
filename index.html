@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | News homepage</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="container">
+        <header class="header">
+          <label><img src="/assets/images/logo.svg" alt="" /></label>
+          <ul>
+            <li>
+              <a class="menuOpen" href="#"
+                ><svg width="40" height="17" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="#00001A" fill-rule="evenodd">
+                    <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
+                    <path d="M0 0h40v3H0z" />
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <nav class="nav-container hide">
+            <ul>
+              <li>
+                <a class="menuClose" href="#"
+                  ><svg
+                    width="32"
+                    height="31"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g fill="#00001A" fill-rule="evenodd">
+                      <path
+                        d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z"
+                      />
+                      <path
+                        d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z"
+                      />
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li><a href="#"> Home</a></li>
+              <li><a href="#"> New </a></li>
+              <li><a href="#">Popular</a></li>
+              <li><a href="#"> Trending</a></li>
+              <li><a href="#"> Categories</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <main class="main">
+          <section class="content">
+            <div class="img-container"></div>
+            <div class="bright-side">
+              <div class="heading-container">
+                <h1 class="primary-heading">The Bright Future of Web 3.0?</h1>
+              </div>
+              <div class="para-container">
+                <p class="para">
+                  We dive into the next evolution of the web that claims to put
+                  the power of the platforms back into the hands of the people.
+                  But is it really fulfilling its promise?
+                </p>
+                <button class="read-btn">Read more</button>
+              </div>
+            </div>
+          </section>
+          <section class="features-container">
+            <h2 class="secondary-heading">New</h2>
+            <div class="feature-content">
+              <h3 class="sub-heading">Hydrogen VS Electric Cars</h3>
+              <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+            <hr class="custom-line" />
+            <div class="feature-content">
+              <h3 class="sub-heading">The Downsides of AI Artistry</h3>
+              <p>
+                What are the possible adverse effects of on-demand AI image
+                generation?
+              </p>
+            </div>
+            <hr class="custom-line" />
+
+            <div class="feature-content">
+              <h3 class="sub-heading">Is VC Funding Drying Up?</h3>
+              <p class="last-child">
+                Private funding by VC firms is down 50% YOY. We take a look at
+                what that means.
+              </p>
+            </div>
+          </section>
+        </main>
+
+        <footer class="footer-container">
+          <div>
+            <img
+              class="footer-imgs"
+              src="/assets/images/image-retro-pcs.jpg"
+              alt=""
+            />
+            <div class="products">
+              <h4 class="footer-heading">01</h4>
+              <h5 class="last-headings">Reviving Retro PCs</h5>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+          <div>
+            <img
+              class="footer-imgs"
+              src="/assets/images/image-top-laptops.jpg"
+              alt=""
+            />
+            <div class="products">
+              <h4 class="footer-heading">02</h4>
+              <h5 class="last-headings">Top 10 Laptops of 2022</h5>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+          <div>
+            <img
+              class="footer-imgs"
+              src="/assets/images/image-gaming-growth.jpg"
+              alt=""
+            />
+            <div class="products">
+              <h4 class="footer-heading">03</h4>
+              <h5 class="last-headings">The Growth of Gaming</h5>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </div>
+        </footer>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Kwabena Izen</a>.
+        </div>
+      </div>
+    </div>
+    <script src="/app.js"></script>
+  </body>
+</html>
